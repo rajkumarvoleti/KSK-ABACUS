@@ -78,7 +78,9 @@ class NextDocument extends Document {
             sizes="16x16"
             href="/favicon-16x16.png"
           />
-          <link rel="manifest" href="/site.webmanifest" />
+          <link rel="preload" href="/Youth.ttf" as="font" crossOrigin="" />
+          <link rel="preload" href="/Aurella.ttf" as="font" crossOrigin="" />
+          <link rel="preload" href="/AlexBrush.ttf" as="font" crossOrigin="" />
         </Head>
         <body>
           <Main />

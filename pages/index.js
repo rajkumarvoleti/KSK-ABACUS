@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Intro from "../components/Intro";
 
 export default function Home() {
   return (
@@ -8,6 +9,9 @@ export default function Home() {
         <meta name="description" content="Abacus" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div>
+        <Intro />
+      </div>
     </div>
   );
 }
