@@ -11,9 +11,8 @@ const style = {
   width: "350px",
   display: "flex",
   flexDirection: "column",
-  alignItems: "center",
-  justifyContent: "center",
   textAlign: "center",
+  height: "510px",
   my: "25px",
   ".image": {
     width: "100%",
@@ -30,7 +29,7 @@ const style = {
   },
 };
 
-export default function CardComp({ url, name, content }) {
+export default function CardComp({ url, name, content, title }) {
   return (
     <Box sx={style}>
       <Box className="image">
@@ -41,7 +40,7 @@ export default function CardComp({ url, name, content }) {
           {name}
         </Typography>
         <Typography variant="h4" fontSize="16px" color="gray">
-          Course Instructor
+          {title}
         </Typography>
         <Box sx={{ width: "220px", border: "1px solid orange", mt: "5px" }} />
         <Typography

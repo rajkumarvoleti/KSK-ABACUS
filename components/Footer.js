@@ -50,7 +50,7 @@ export default function Footer() {
         </Typography>
         <Box sx={{ border: "1px solid orange", width: "280px" }} />
       </Box>
-      <Box className="center edgeGrid" sx={{ flexDirection: "row" }}>
+      <Box className="center edgeGrid" style={{ flexDirection: "row" }}>
         <CallIcon />
         <Typography sx={{ pl: "10px" }}>9393136305</Typography>
       </Box>

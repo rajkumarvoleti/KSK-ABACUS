@@ -19,11 +19,14 @@ export default function About() {
         name="Suresh"
         content="As a Teacher I have the great privilege and responsibility to impact our students lives positively, giving them reasons to push forward and motivating them to want to success in life. I will make sure that my students move forward toward their goals and succeed in their lives"
         url={photo1.src}
+        title="Cheif Trainer"
       />
       <CardComp
         name="Akhila"
-        content="The responsibility of rearing good, kind, ethical, responsible students is the biggest responsibility as a teacher. I ensure that my students reach academic succes and bring positive change to the wrold "
+        content="The responsibility of rearing good, kind, ethical, responsible students is the biggest responsibility as a teacher. I ensure that my students reach academic succes and bring positive change to the world. I am not a teacher, but an awakener.
+        "
         url={photo2.src}
+        title="Course Instructor"
       />
     </Box>
   );
