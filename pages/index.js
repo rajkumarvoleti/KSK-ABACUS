@@ -1,4 +1,8 @@
 import Head from "next/head";
+import About from "../components/About";
+import CarouselComp from "../components/CarouselComp";
+import Footer from "../components/Footer";
+import Info from "../components/Info";
 import Intro from "../components/Intro";
 
 export default function Home() {
@@ -9,8 +13,12 @@ export default function Home() {
         <meta name="description" content="Abacus" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
+      <div className="center">
         <Intro />
+        <Info />
+        <About />
+        <CarouselComp />
+        <Footer />
       </div>
     </div>
   );
